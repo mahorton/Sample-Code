@@ -1,0 +1,6 @@
+For this project I was attempting to reconstruct the audio data from ECOG brain data which
+generated from a person's brain perceiving audio and visual stimuli.
+
+A number of different regression approaches were attempted. Functions which generated my submissions
+to the Kaggle leaderboard are found in solutions.py while crossvalidation attempts are found
+in crossval.py. utils.py contains a number of miscellaneous tools used in the project.

@@ -1,0 +1,7 @@
+For our model, we used the colums: pclass, age, gender, siblings, parents/children, and whether or not the person survived. pclass would influence where the person was likely to be physically located on the boat, gender would influence a persons physical capabilities as well as priority for getting on a life boat, age could change a person's physical capabilities, and other family members and relations also could play a role in whether the person had certain priorites help. The rest of the variables such as ticket number, fare and destination seemed like they would play little to no role in the survivability of a passenger. For a given run of my code, the AUC scores were as follows: 
+	Logistic Classifier for pclass = {1,2,3} --> .822
+	Logistic Classifier for binary pclass --> .8177
+	Naive Bayes --> .7337
+The logistic classifier was more effective than the naive bayes.
+
+Looking at the coefficients for the variables in our model, we could see that sex was the biggest indicator followed by the pclass. Age seems to be the least predictive which is somewhat surprising to me.
